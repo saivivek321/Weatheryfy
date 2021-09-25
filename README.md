@@ -1,6 +1,6 @@
 # Weatheryfy
 
-
+### using this website we can know Present temperature of all  well known Citys and Towns  by giving the name in the search box
 
 ## Steps to Run the server Locally 
 

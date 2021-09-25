@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin : 0;
+
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    font-family:cursive;
+    
+}
+.main-form{
+    text-align: center;
+    margin-top:50px;
+}
+.enter{
+   
+    font-size: 2rem;
+    font-weight: bold;
+}
+input{
+    font-size: 1.2rem;
+    background:transparent;
+    opacity: 0.5;
+    text-align: center;
+}
+button{
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top:30px;
+    display:block;
+    width: 20vw;
+    height:40px;
+    position: relative;
+    left:40vw;
+    background:transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (min-width: 635px) {
+    .title{
+        font-size: 4rem;
+    }
+    body{
+        background: url("sunny.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    input{
+        display: inline-block;
+        width:30vw;
+        height:5vh;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .title{
+        font-size: 3rem;  
+    }  
+    .enter{
+        color:#ffffff;
+    }
+    body{
+        background: url("small.jpg")  no-repeat center fixed;
+        background-size: cover;
+    }
+    input{
+        width:50vw;
+        height:5vh;
+        color:#ffffff;
+    }
+    button{
+        height:30px;
+        width: 30vw;
+        left:35vw;
+        color:#eeabab;
+    }
+}
